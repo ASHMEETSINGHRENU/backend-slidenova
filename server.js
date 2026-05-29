@@ -71,7 +71,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     origin: [
         "http://localhost:3000",
-        "https://front-slidenova.vercel.app/"
+        "https://front-slidenova.vercel.app"
     ],
     credentials: true
 }));
